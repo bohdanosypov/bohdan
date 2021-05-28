@@ -52,6 +52,9 @@ header h1{
 	align-items: center;
 	text-align: right;
 }
+header h1:hover{
+	transform: rotateY(90deg);
+}
 
 header nav{
 	color: rgba(27, 26, 24, 0.7);
