@@ -24,6 +24,23 @@ main {
 	margin: 25px auto;
 }
             /*Стиль Header*/
+
+#dimpng img{
+	
+	max-width: 150px;
+}
+
+#dimpng:hover {
+	transform: rotateZ(360deg);
+	transition: all 0.9s ease 0.1s;
+	
+}
+
+header nav:hover{
+	transform: scale(1.2, 1);
+	transition: all 0.8s, ease 0s;
+}
+
 header{
 	background: url(images/header.jpg);
 	background-size: cover;
@@ -51,9 +68,12 @@ header h1{
 	line-height: 60px;
 	align-items: center;
 	text-align: right;
+
 }
+
 header h1:hover{
-	transform: rotateY(90deg);
+	transform: skew(-30deg, 0deg);
+	transition: all 0,8s ease 0s;
 }
 
 header nav{
@@ -159,10 +179,7 @@ footer p{
 	padding: 15px;
 }
 
-#dimpng img{
-	
-	max-width: 150px;
-}
+
 
 
 .mag{
@@ -183,12 +200,12 @@ video{
 }
 
 table{
-	/*z-index: 10;*/
+	
 	position: absolute;
 	right: 20px;
 	top: 815px;
 	padding: 10px;
-	/*background: rgba(227, 215, 164, 0.75);*/
+	
 
 }
 
@@ -239,11 +256,9 @@ table{
 }
 
 .main-menu-container ul {
-/*display: flex;*/
 text-align: center;
 justify-content: flex-start;
 list-style: none; 
-/*background: #30A8E6; */
 height: 50px; 
 width: 100px;
 }
@@ -335,3 +350,4 @@ width: 250px;
 
 
 }
+
