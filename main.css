@@ -30,7 +30,7 @@ main {
 	max-width: 150px;
 }
 
-#dimpng:hover {
+#dimpng img:hover {
 	transform: rotateZ(360deg);
 	transition: all 0.9s ease 0.1s;
 	
